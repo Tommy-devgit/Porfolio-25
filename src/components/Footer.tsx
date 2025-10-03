@@ -1,5 +1,6 @@
 import { type FC } from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { TelegramIcon } from "./TelegramIcon";
 
 const Footer: FC = () => {
   return (
@@ -56,11 +57,27 @@ const Footer: FC = () => {
             >
               <FaTwitter />
             </a>
+            <a
+              href="https://github.com/your-username"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-700 transition-colors"
+            >
+              <TelegramIcon />
+            </a>
+            <a
+              href="https://github.com/your-username"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-700 transition-colors"
+            >
+              <FaFacebook />
+            </a>
           </div>
           <p className="text-gray-600 text-sm">
             Email:{" "}
             <a href="mailto:your@email.com" className="hover:text-blue-700">
-              your@email.com
+              Tomasmelesse413@gmail.com
             </a>
           </p>
         </div>
@@ -68,7 +85,7 @@ const Footer: FC = () => {
 
       {/* Bottom Bar */}
       <div className="border-t border-gray-900 mt-12 py-6 text-center text-gray-700 text-xs tracking-wide">
-        © {new Date().getFullYear()} Tommy • Built in React + Tailwind • Dark Mode Forever 🖤
+        © {new Date().getFullYear()} Tomas Melesse - All Rights Reserved
       </div>
     </footer>
   );

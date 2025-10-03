@@ -61,13 +61,13 @@ const Hero = () => {
         >
           <Link
             to="/projects"
-            className="px-6 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-500 transition"
+            className="px-6 py-3 rounded-3xl bg-blue-600 text-white font-medium hover:bg-blue-500 transition"
           >
             View Projects
           </Link>
           <Link
             to="/contact"
-            className="px-6 py-3 rounded-xl border border-gray-700 text-gray-200 hover:border-blue-500 hover:text-blue-400 transition"
+            className="px-6 py-3 rounded-3xl border border-gray-700 text-gray-200 hover:border-blue-500 hover:text-blue-400 transition"
           >
             Contact Me
           </Link>
@@ -81,7 +81,7 @@ const Hero = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-blue-600 shadow-lg shadow-blue-500/30">
+        <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-blue-600 shadow-lg shadow-blue-500/30">
           <img
             src={profilepicture} // put your picture in public/profile.jpg
             alt="Tommy"
@@ -142,6 +142,4 @@ const TypingAnimation = ({ words }: { words: string[] }) => {
     </span>
   );
 };
-
-
-// do that but can you make the hero as all bit centeres it seems like its tilted to left right? 
+// its not working but just lets continue to the other section
