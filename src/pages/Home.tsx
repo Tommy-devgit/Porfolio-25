@@ -1,4 +1,3 @@
-// src/pages/Home.tsx
 import Hero from "../components/Hero";
 
 const Home = () => {
