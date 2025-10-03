@@ -1,5 +1,4 @@
 // src/pages/Home.tsx
-import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 
 const Home = () => {
