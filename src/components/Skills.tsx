@@ -55,6 +55,8 @@ const skills = [
   { icon: <SiVercel title="Vercel" />, name: "Vercel" },
   { icon: <SiFigma title="Figma" />, name: "Figma" },
   { icon: <FaGithub title="GitHub" />, name: "GitHub" },
+  { icon: <SiArduino title="Arduino" />, name: "Arduino" },
+  { icon: <SiChakraui title="Chakra UI" />, name: "Chakra UI" }, // placeholder explained below
 ];
 
 /* ---------- Stats (numeric for animation) ---------- */
